@@ -1,0 +1,7 @@
+print ("Hola mundo!")
+print ("Hola" + " " + "Jesus")
+print ("Hola" + " " + "Rubí")
+print ("Día 1- Manipular cadenas")
+print("La concatenacion se realiza con " + "firmar")
+print('e.g. print("Hola " + "mundo")')
+print("Se pueden crear nuevas lineas con una barra invertida.")
