@@ -9,7 +9,7 @@ class Persona():
 
     def getDatosPersonales(self):
 
-        return "Nombre: " + self.nombre + "Apellido: " + self.apellido + "Edad: " + str(self.edad)
+        return "Nombre: " + self.nombre + " Apellido: " + self.apellido + " Edad: " + str(self.edad)
     
     def hablar(self):
 
