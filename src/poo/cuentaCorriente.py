@@ -28,15 +28,29 @@ class CuentaCorriente():
 
             insuficiente = self.saldo_cuenta = monto_retirado - self.saldo_cuenta
             print("Saldo insuficiente, para poder sacar el monto ingresado te falta : " + str(insuficiente))
-
-
-
-datosCuenta = CuentaCorriente("Eduardo Alejandro Sánchez Lugo", "4323678712456789", 400000)
-datosCuenta.ingresarMonto(599999)
-datosCuenta.retirarDinero(1000000)
-print(datosCuenta.getDatosCuenta())
-
     
+
+
+class CuentaJove(CuentaCorriente):
+
+    def __init__ (self, nombre_titular, numero_cuenta, saldo_cuenta, bonus):
+        
+        super().__init__(nombre_titular, numero_cuenta, saldo_cuenta)
+
+        self.bonus = bonus
+
+        
+        
+    def getBonus(self):
+
+        return  super().getDatosCuenta() + " con un bonus de " + str(self.bonus) + " y en total tienes : " + str(self.saldo_cuenta + self.bonus)
+
+
+
+cuentaJoven = CuentaJove("Alejandro Lugo", "4345567867891243", 10000, 1000)
+cuentaJoven.ingresarMonto(10000)
+cuentaJoven.retirarDinero(10000)
+print(cuentaJoven.getBonus())
     
     
 
