@@ -6,6 +6,7 @@
 - Excepciones.
 - Programación orientada a objetos.
 - Métodos útiles y especificos.
+- Modulos.
 
 
 ## 🔧 Instalación :
