@@ -1,6 +1,6 @@
-def suma(primerNumero, segundoNumero):
+def suma(primer_numero, segundo_numero):
 
-    resultado = primerNumero + segundoNumero
+    resultado = primer_numero + segundo_numero
 
     return  resultado
 

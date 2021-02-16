@@ -1,4 +1,4 @@
-def imprimeMensajes():
+def imprime_mensajes():
     print("Esto es un curso de python")
     print("El curso acaba de empezar")
     print("El curso tendra mas de 1500 videos")
@@ -6,4 +6,4 @@ def imprimeMensajes():
 
 print("El programa a terminado su ejecucion")
 
-imprimeMensajes()
+imprime_mensajes()

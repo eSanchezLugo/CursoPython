@@ -28,10 +28,21 @@ carros =[{
 def calcular_millas(carro):
 
     mpg = carro["kilometraje"]/ carro ["total_combustible"]
-    nombre = f"{carro['marca']} {carro['modelo']}"
+    return mpg
 
-    print(f"{nombre} hace {mpg} millas por galon. ")
+
+def nombre_carro(carro):
+    nombre = f"{carro['marca']} {carro['modelo']}"
+    return nombre
+
+
+def informacion_carro(carro):
+    nombre = nombre_carro(carro)
+    mpg = calcular_millas(carro)
+    
+    return f"{nombre} hace {mpg} millas por galon. "
 
 
 for carro in carros:
-    calcular_millas(carro)
+
+    print (informacion_carro(carro))

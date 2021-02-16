@@ -1,17 +1,17 @@
-def imprimeMensaje():
+def imprime_mensaje():
 
     return "Este es el mensaje de la función"
 
-print(imprimeMensaje())
+print(imprime_mensaje())
 
 
-def imprimeMensajePersonalizado(mensaje, valor1, valor2):
+def imprime_mensaje_personalizado(mensaje, valor1, valor2):
 
 
 
     return mensaje + str((valor1 + valor2))
 
 
-print(imprimeMensajePersonalizado("La suma es: ", 23,34))
+print(imprime_mensaje_personalizado("La suma es: ", 23,34))
 
 
