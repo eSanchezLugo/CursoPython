@@ -1,0 +1,6 @@
+README.md
+setup.py
+calculosbasicosmatematicos.egg-info/PKG-INFO
+calculosbasicosmatematicos.egg-info/SOURCES.txt
+calculosbasicosmatematicos.egg-info/dependency_links.txt
+calculosbasicosmatematicos.egg-info/top_level.txt

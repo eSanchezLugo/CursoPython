@@ -7,6 +7,8 @@
 - Programación orientada a objetos.
 - Métodos útiles y especificos.
 - Modulos.
+- Crawler.
+- Instrucciones lambda.
 
 
 ## 🔧 Instalación :

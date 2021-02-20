@@ -1,5 +1,5 @@
-from moduloMatematico.calculosBasicos.funcionesMatematicas import *
-from moduloMatematico.otrosCalculos.potenciaRedondeo import *
+from moduloMatematicos.calculosBasicos.funcionesMatematicas import *
+from moduloMatematicos.otrosCalculos.potenciaRedondeo import *
 
 sumar(2,4)
 restar(2,4)
