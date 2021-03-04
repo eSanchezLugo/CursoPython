@@ -4,6 +4,6 @@ for  numero in range (2, 101):
             print(f" {numero} es igual {numero_primo} * {numero//numero_primo}.")
             break
     else:
-        print(f"{numero} es un número primo.")
+        print(f"{numero} es un numero primo.")
 
 
