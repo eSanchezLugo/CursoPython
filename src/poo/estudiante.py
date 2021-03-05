@@ -19,4 +19,10 @@ class Estudiante :
         return sum(self.calificaciones)/ len(self.calificaciones)
 
 estudiante_uno = Estudiante('Rubi Zaragoza', [70, 88, 90, 99])
-print(f"{estudiante_uno.nombre} , {estudiante_uno.promedio_alumno()}") 
+estudiante_dos = Estudiante('Jesus Sanchez', [50, 60, 99, 100])
+
+print(estudiante_dos.calificaciones)
+
+
+print(estudiante_uno.promedio_alumno())
+print(Estudiante.promedio_alumno(estudiante_uno))
