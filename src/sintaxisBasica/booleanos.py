@@ -15,3 +15,5 @@ apellido = "Sánchez"
 
 saludar = nombre or f"Mr. {apellido}"
 print(saludar)
+
+
