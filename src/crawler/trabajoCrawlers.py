@@ -12,6 +12,7 @@ miDoc ="""
     <html>
         <style>
             .pImportante{
+                
                 color:red;
             }
         
@@ -32,6 +33,7 @@ miDoc ="""
 docFinal =BeautifulSoup(miDoc, "html.parser")
 
 for parrafo in docFinal.find_all("p"):
+    print(parrafo.attrs)
     print(parrafo.text)
 
 print(docFinal)
